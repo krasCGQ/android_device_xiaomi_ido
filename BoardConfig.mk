@@ -82,6 +82,9 @@ TARGET_HAS_NO_POWER_STATS := true
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+# Radio
+DISABLE_RILD_OEM_HOOK := false
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 BOARD_NO_SECURE_DISCARD := true
