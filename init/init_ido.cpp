@@ -59,6 +59,8 @@ void check_device()
         heapgrowthlimit = "288m";
         heapsize = "768m";
         heapminfree = "512k";
+
+        property_set("ro.boot.fingerprint", "fpc");
     } else {
         // from - phone-xxhdpi-2048-dalvik-heap.mk
         heapstartsize = "16m";
