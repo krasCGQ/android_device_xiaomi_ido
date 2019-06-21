@@ -10,6 +10,11 @@
     "revision": "mkp"
   },
   {
+    "repository": "KudProject/vendor_xiaomi_MiuiCamera",
+    "target_path": "vendor/xiaomi/MiuiCamera",
+    "revision": "mkp"
+  },
+  {
     "repository": "xiaomi-classic-dev/android_vendor_xiaomi_ido",
     "target_path": "vendor/xiaomi/ido",
     "revision": "mkp"

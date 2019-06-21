@@ -17,6 +17,9 @@
 
 $(call inherit-product, vendor/xiaomi/ido/ido-vendor.mk)
 
+# MIUI Camera
+$(call inherit-product-if-exists, vendor/xiaomi/MiuiCamera/ido.mk)
+
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
