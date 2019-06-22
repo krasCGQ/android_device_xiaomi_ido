@@ -47,6 +47,3 @@ ro.telephony.call_ring.multiple=false
 ril.subscription.types=NV,RUIM
 persist.radio.multisim.config=dsds
 ro.telephony.default_network=9,9
-
-# Maintainer
-ro.mk.maintainer=guaiyihu

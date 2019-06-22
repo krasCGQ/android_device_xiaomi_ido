@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "LineageOS/android_device_cyanogen_msm8916-common",
+    "target_path": "device/cyanogen/msm8916-common",
+    "revision": "lineage-16.0"
+  },
+  {
+    "repository": "xiaomi-classic-dev/android_kernel_xiaomi_msm8916",
+    "target_path": "kernel/xiaomi/msm8916",
+    "revision": "mkp"
+  },
+  {
+    "repository": "xiaomi-classic-dev/android_vendor_xiaomi_ido",
+    "target_path": "vendor/xiaomi/ido",
+    "revision": "mkp"
+  }
+]
